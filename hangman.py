@@ -1,4 +1,4 @@
-# Simple console-based interactive hangman. To run: python hangman.py 
+# Simple console-based interactive hangman. To run: python3 hangman.py 
 
 import random
 
@@ -188,5 +188,5 @@ while guesses < 7:
 
   # display guessed letters only when user has already guessed 
   if guesses > 0:
-    print("You've already guessed the following: " + " ,".join([str(thing) for thing in alreadyGuessed]))
+    print("You've already guessed the following: " + ", ".join([str(thing) for thing in alreadyGuessed]))
     
